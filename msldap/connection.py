@@ -45,7 +45,7 @@ class MSLDAPClientConnection:
 		self.status = MSLDAPClientStatus.RUNNING
 		self.lasterror = None
 
-		self.message_id = 0
+		self.message_id = 1
 		self.message_table = {}
 		self.message_table_notify = {}
 		self.encryption_sequence_counter = 0 # this will be set by the inderlying auth algo
